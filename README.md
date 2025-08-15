@@ -10,17 +10,11 @@ We want you to test a web project that makes uses of the FIFA 21 dataset. The de
 
 This project is a web project, consisting of a front-end and a back-end, which are used to consume processed data from the FIFA 21 dataset.
 
-### Preparing the Data
+The required steps are [available in this repository](https://github.com/ericksonalves/test-challenge-aug-2025/blob/main/source-code.zip)
 
-The first goal of this project is to obtain and prepare the data you will work with.
+### Implemented Features
 
-The dataset is [available in this repository](https://github.com/kavlac/test-challenge-november-2021/blob/main/source-code/players_21.zip).
-
-### Making the Data Available
-
-The second goal of this project is to make the processed data available for consumption.
-
-To do so, a REST API was implemented and it should provide the following methods:
+A REST API was implemented in the backend and it should provide the following methods:
 
 - List all players (using pagination): we want to know what players are stored in your database;
 - List players by name: given a name, we want to know what players match such name;
@@ -37,9 +31,7 @@ To do so, a REST API was implemented and it should provide the following methods
 - List the best team by league: we want to know the best players that can form a squad;
 - List the best team by nationality: we want to know the best players that can form a squad.
 
-### Consuming the Data
-
-The third goal of this project is to consume the methods of the REST API via a front-end application.
+Also, this project consumes the REST API via a front-end application.
 
 ## Deliverables
 
