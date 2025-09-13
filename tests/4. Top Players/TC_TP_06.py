@@ -46,7 +46,6 @@ def test_filter_top_50(driver):
     time.sleep(0.5)
 
     players = driver.find_elements(By.CLASS_NAME, "player")
-    print(len(players))
 
     if len(players) == 2:
         result += "[SUCCESS]: Top 50 players returned by filter"

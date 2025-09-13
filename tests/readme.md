@@ -2,7 +2,7 @@
 
 There is only one way to execute the tests
 
-### Manually, with project running
+### Manually, with FIFA 21 project running
 
 ```
     # first step - go to ATC Folder
